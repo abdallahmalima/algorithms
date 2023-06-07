@@ -1,0 +1,23 @@
+let busTrip=()=>{
+let depart=939;
+let busIds=[7,13,59,31,19];
+let new_depart=939;
+
+while(true){
+  
+  for(let b of busIds){
+    if(new_depart%b==0){
+      let x=new_depart-depart;
+      return x*b;
+    }
+
+  }
+  new_depart++;   
+ 
+}
+
+
+ 
+}
+
+console.log(busTrip());

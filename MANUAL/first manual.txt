@@ -1,0 +1,25 @@
+...................ITERATIVE PRACTICE..............
+1.Solve problem by iteratind 1D array by visit all/some elements
+NOTE:solution is archived by either visit some/all elements depent of a problem
+arr=[1,2,3,4,5]
+EXAMPLES
+(a) perfom lenear search on array;
+(b) sum up array;
+
+
+2.Solve problem by iteratind 1D array by re-visit all/some elements N times
+NOTE:solution is archived by either re-visit some/all elements  N times depent on the problem
+arr=[1,2,3,4,5]
+EXAMPLES
+(a) bubble sort;
+(b) insertion sort;
+(c) selection sort;
+
+
+3.Solve problem by iterating 1D array by re-visit all/some elements for unknown time but end time must come
+NOTE:solution is archived by either re-visit some/all elements  for unknown time means until the problem is solved depent on the problem
+arr=[1,2,3,4,5]
+EXAMPLES
+(a) bubble sort;
+(b) insertion sort;
+(c) selection sort;
