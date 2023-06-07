@@ -4,8 +4,9 @@ var twoSum = function (arr, k) {
     for (var i = 0; i < arr.length - 1; i++) {
         for (var j = i + 1; j < arr.length; j++) {
             var sum = arr[i] + arr[j];
-            if (sum == k)
+            if (sum === k) {
                 return true;
+            }
         }
     }
     return false;
